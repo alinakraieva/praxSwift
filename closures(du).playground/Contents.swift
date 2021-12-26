@@ -29,3 +29,9 @@ var numbSquare = { (numb: Int) -> (Int) in
 }
 var findResult = numbSquare(12)
 print("result:", findResult)
+
+//for arr
+let numbs4 = [10, 3, 41, 72, 2, 11]
+var squaredNumbs = numbs4.map{numbs4 in numbs4*numbs4
+}
+print(squaredNumbs)
